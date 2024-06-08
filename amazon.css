@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    
+}
+.swp {
+    width: 100%;
+    height: 100%;
+ 
+  }
+.sliding{
+    height: 100%;
+    width: 98%;
+    margin-left: 2vh;
+    margin-right: .5vh;
+    position: relative;
+    
+
+}
+  .ss {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ss img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cards{
+    height: 120%;
+    width: 100%;
+  
+    z-index: 8;
+    position: absolute;
+    top: 55%;
+  }
+  .cards1{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+  }
+  .cards2{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+    /* background-color: green; */
+  }
+  .card1{
+    /* background-color: blue; */
+    height: 28vw;
+    width: 22%;
+    background-color: white;
+  }
+
+ .card11{
+    height:3vw ;
+    width: 100%;
+ }
+ .card11 h3{
+    margin-left: 2vh;
+    margin-top: 2vh;
+ }
+ .card12{
+    height:11vw ;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .card13{
+    height:11vw ;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .card14{
+    height:3vw ;
+    width: 100%;
+    /* background-color: red; */
+ }
+ .pic1{
+    height: 11vw;
+    width: 46%;
+ }
+ .pic1 img{
+    width: 20vh;
+    height: 17vh;
+
+ }
+ .cards p{
+    font-size: 2vh;
+ }
+ .pic2{
+    height: 11vw;
+    width: 46%;
+    /* background-color: crimson; */
+ }
+ .pic2 img{
+    width: 20vh;
+    height: 17vh;
+
+ }
+ .card14 a{
+    text-decoration: none;
+    padding-left: 1.5vh;
+    padding-top: 1vh;
+    display: flex;
+    text-align: center;
+    color: rgb(14, 156, 109);
+    cursor: pointer;
+ }
+
+ .card14 a:hover{
+    color: brown;
+ }
+
+ .part1{
+    height: 35%;
+    width: 100%;
+    background-color: white;
+ }
+ .part2{
+    height: 5%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.1);
+ }
+ .part3{
+    height: 60%;
+    width: 100%;
+    /* margin-top: 2vh; */
+    background-color:white;
+ }
+ .ca{
+    background:transparent;
+ }
+ .ca h3{
+   margin-left: 3vh;
+   padding-top: 2vh;
+ }
+
+ .ca button{
+   margin-left: 2.5vh;
+   margin-top: 4vh;
+   padding: 1vh;
+   width: 40vh;
+   background-color: rgb(227, 227, 12);
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+ }
+
+ .ca button:hover{
+   filter: grayscale(.5);
+ }
+
+ .part3 img{
+   width: 25vh;
+   height: 25vh;
+   margin-left: 8vh;
+ }
+
+ .part3 p,h4{
+   margin-left: 5vh;
+   padding-top: 1vh;
+ }
+ .part3 a{
+   margin-left: 5vh;
+   margin-bottom: 10vh;
+   text-decoration: none;
+   color: rgb(14, 156, 109);
+   cursor: pointer;
+ }
+
+ .cards2{
+   margin-top: 3vh;
+ }
+
+ .four-cards{
+   height: 100vh;
+   width: 100%;
+   background-color: aqua;
+ }
+ @media(min-width:1px) and (max-width:425px){
+   .card11{
+      height: 10vh;
+      width: 20vh;
+   }
+   .cards1{
+      display: flex;
+      flex-direction: column;
+   }
+   .cards2{
+      display: flex;
+      flex-direction: column;
+   }
+ }
